@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "logCaller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eventlogger.sol": "EventLogger"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eventlogger.sol": {
+			"keccak256": "0xc2f50142047eccafb79a1b2748232db96145bb25d3393aaa90e027b83a38153a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c57d0d86e937e4c311710cad2a6c8a5ceff444150074cff71adea3a7a980c8e6",
+				"dweb:/ipfs/QmXiyMjtQLNXqYaKhHQRM8nQtBPweUCkLSVV3RyJFJTPnL"
+			]
+		}
+	},
+	"version": 1
+}
